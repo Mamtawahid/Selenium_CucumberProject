@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 4793562923,
+  "duration": 7641159353,
   "status": "passed"
 });
 formatter.scenario({
@@ -214,7 +214,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 1410980501,
+  "duration": 764454765,
   "status": "passed"
 });
 formatter.match({
@@ -227,8 +227,9 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 250955104,
-  "status": "passed"
+  "duration": 18724834104,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f5e33804f9cec08e2be9f1d0f090d84c\n*** Element info: {Using\u003did, value\u003ddwfrm_login_username}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.type(BasePage.java:57)\n\tat Pages.Scholastic.SighnInPage.typeEmail(SighnInPage.java:19)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.enterEmail(SfoMultipleOrderSD.java:28)\n\tat ✽.And I enter \u0027Wmw@gmail.com\u0027 as my email(Scholastic/AddANewCreditCard.feature:10)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -240,36 +241,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 114374335,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 411086528,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 15948914995,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 334923706,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 2608877538,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -281,8 +277,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 187534720,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -294,15 +289,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 85654888,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 73355620,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -314,8 +307,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 226702240,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -327,15 +319,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 78705407,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 87235975,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -347,8 +337,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 195658427,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -360,15 +349,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 109547780,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 107666728,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -380,51 +367,43 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 224252573,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
 });
 formatter.result({
-  "duration": 1548039679,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickOnProceedToCheckOut()"
 });
 formatter.result({
-  "duration": 134464493,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickProceed()"
 });
 formatter.result({
-  "duration": 1401662789,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.clickOnContCheckout()"
 });
 formatter.result({
-  "duration": 2215902639,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.selectCard()"
 });
 formatter.result({
-  "duration": 393062885,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.selectANewCard()"
 });
 formatter.result({
-  "duration": 32182371057,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: Element is not found after 30 seconds of wait (tried for 30 second(s) with 1000 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:315)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.clickThis(BasePage.java:61)\n\tat Pages.Scholastic.ShippingAndPaymentPage.selectCard(ShippingAndPaymentPage.java:65)\n\tat StepDefinition.Scholastic.YtoSfoNonZeroTaxSD.selectANewCard(YtoSfoNonZeroTaxSD.java:64)\n\tat ✽.And I select add a new card(Scholastic/AddANewCreditCard.feature:34)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),\u0027Select a Card\u0027)]\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:9cf2:3754:4f09:392a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:52473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bd64ad066ac1d21b153ac15745002329\n*** Element info: {Using\u003dxpath, value\u003d//div[contains(text(),\u0027Select a Card\u0027)]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.clickThis(BasePage.java:61)\n\tat Pages.Scholastic.ShippingAndPaymentPage.selectCard(ShippingAndPaymentPage.java:65)\n\tat StepDefinition.Scholastic.YtoSfoNonZeroTaxSD.selectANewCard(YtoSfoNonZeroTaxSD.java:64)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\n\tat org.junit.runners.Suite.runChild(Suite.java:127)\n\tat org.junit.runners.Suite.runChild(Suite.java:26)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:138)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:108)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:78)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:54)\n\tat org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:144)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -565,7 +544,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 174173158,
+  "duration": 123034058,
   "status": "passed"
 });
 formatter.uri("Scholastic/SfoItemDeletion.feature");
@@ -583,7 +562,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2891246627,
+  "duration": 5116092306,
   "status": "passed"
 });
 formatter.scenario({
@@ -784,7 +763,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 777423619,
+  "duration": 155690203,
   "status": "passed"
 });
 formatter.match({
@@ -797,8 +776,9 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 533958538,
-  "status": "passed"
+  "duration": 6916852792,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49309}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9df3dec1bfa103c202b998c78a2849cf\n*** Element info: {Using\u003did, value\u003ddwfrm_login_username}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.type(BasePage.java:57)\n\tat Pages.Scholastic.SighnInPage.typeEmail(SighnInPage.java:19)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.enterEmail(SfoMultipleOrderSD.java:28)\n\tat ✽.And I enter \u0027Mitu@gmail.com\u0027 as my email(Scholastic/SfoItemDeletion.feature:10)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -810,36 +790,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 111982023,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 87815010,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 3599026483,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 352379424,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 2193072786,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -851,8 +826,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 151218573,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -864,15 +838,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 96296634,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 79911212,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -884,8 +856,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 243984291,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -897,15 +868,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 88751392,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 96732993,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -917,8 +886,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 191735113,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -930,8 +898,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 115998217,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -943,15 +910,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 79401379,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 56153469,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -963,8 +928,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 123549546,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -976,15 +940,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 94572228,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 57589537,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -996,8 +958,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 143282746,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1009,8 +970,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 109822528,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1022,15 +982,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 77218336,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 53651938,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1042,8 +1000,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 114111825,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1055,15 +1012,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 80398944,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 57006086,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1075,68 +1030,58 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 117191555,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
 });
 formatter.result({
-  "duration": 2009372632,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.johnSubTotalBeforeRemove()"
 });
 formatter.result({
-  "duration": 36521232,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.johnSubTotaQtylBeforeRemove()"
 });
 formatter.result({
-  "duration": 25279575,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.totalBeforeRemove()"
 });
 formatter.result({
-  "duration": 19025840,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.totalQtyBeforeRemove()"
 });
 formatter.result({
-  "duration": 19266097,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickRemove()"
 });
 formatter.result({
-  "duration": 79825362,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickYes()"
 });
 formatter.result({
-  "duration": 113857800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.verifyUpdateAfterRemoval()"
 });
 formatter.result({
-  "duration": 231859653,
-  "error_message": "java.lang.AssertionError: Not updated\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.assertNotEquals(Assert.java:897)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.verifyUpdateAfterRemoval(SfoMultipleOrderSD.java:204)\n\tat ✽.Then I verify item is deleted and quantities and items are updated(Scholastic/SfoItemDeletion.feature:49)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 161680196,
+  "duration": 130546328,
   "status": "passed"
 });
 formatter.uri("Scholastic/SfoMultiStudentMultiBooks.feature");
@@ -1154,7 +1099,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2671103051,
+  "duration": 2175958633,
   "status": "passed"
 });
 formatter.scenario({
@@ -1330,8 +1275,9 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 783660630,
-  "status": "passed"
+  "duration": 5400231,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49395}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0eed8be811df15526709b9520c2acf0b\n*** Element info: {Using\u003dlink text, value\u003dSign In}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.clickThis(BasePage.java:61)\n\tat Pages.Scholastic.LandingPage.clickSignIn(LandingPage.java:29)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.clicksignIn(SfoMultipleOrderSD.java:22)\n\tat ✽.When I click on sign in button(Scholastic/SfoMultiStudentMultiBooks.feature:9)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -1343,8 +1289,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 383450338,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1356,36 +1301,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 112874747,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 114048138,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 10346980918,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 167032732,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 5239712015,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1397,8 +1337,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 134510252,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1410,15 +1349,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 108626123,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 81765866,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1430,8 +1367,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 146532702,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1443,15 +1379,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 104345481,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 68506768,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1463,8 +1397,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 284956828,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1476,8 +1409,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 123824247,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1489,15 +1421,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 72530375,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 63781038,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1509,8 +1439,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 136712116,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1522,15 +1451,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 123837985,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 61529214,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1542,8 +1469,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 150392721,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1555,8 +1481,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 131823002,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1568,15 +1493,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 69573499,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 58076976,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1588,8 +1511,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 145544241,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1601,15 +1523,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 88177299,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 53696818,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1621,16 +1541,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 163041445,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.verificationsOfMultipleNamesItemAndQuantity()"
 });
 formatter.result({
-  "duration": 418360600,
-  "error_message": "java.lang.AssertionError: Quantities are not same expected [] but found [4]\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\n\tat org.testng.Assert.assertEquals(Assert.java:115)\n\tat org.testng.Assert.assertEquals(Assert.java:189)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.verificationsOfMultipleNamesItemAndQuantity(SfoMultipleOrderSD.java:129)\n\tat ✽.Then I verify multiple student names, multiple items and multiple quantities are entered as expected(Scholastic/SfoMultiStudentMultiBooks.feature:42)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
@@ -1645,7 +1562,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 103443878,
+  "duration": 141732271,
   "status": "passed"
 });
 formatter.uri("Scholastic/SfoMultipleOrder.feature");
@@ -1663,7 +1580,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5310645461,
+  "duration": 4141049940,
   "status": "passed"
 });
 formatter.scenario({
@@ -1784,7 +1701,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 365482086,
+  "duration": 199298505,
   "status": "passed"
 });
 formatter.match({
@@ -1797,8 +1714,9 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 411724009,
-  "status": "passed"
+  "duration": 4306060482,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e8b5f9163f6886eb7524356ebda0fa7e\n*** Element info: {Using\u003did, value\u003ddwfrm_login_username}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.type(BasePage.java:57)\n\tat Pages.Scholastic.SighnInPage.typeEmail(SighnInPage.java:19)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.enterEmail(SfoMultipleOrderSD.java:28)\n\tat ✽.And I enter \u0027fname@gmail.com\u0027 as my email(Scholastic/SfoMultipleOrder.feature:10)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -1810,36 +1728,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 148561847,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 108640035,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 3499931323,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 176261185,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 5147308563,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1851,8 +1764,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 322354147,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1864,15 +1776,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 101831060,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 86784770,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1884,8 +1794,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 233046913,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1897,15 +1806,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 76802095,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 103985259,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1917,8 +1824,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 143824696,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1930,15 +1836,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 97235629,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 54668391,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1950,16 +1854,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 197032959,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.verifyNameItemQuantity()"
 });
 formatter.result({
-  "duration": 129384901,
-  "error_message": "java.lang.AssertionError: Expected and actual are not same expected [] but found [2]\n\tat org.testng.Assert.fail(Assert.java:93)\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\n\tat org.testng.Assert.assertEquals(Assert.java:115)\n\tat org.testng.Assert.assertEquals(Assert.java:189)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.verifyNameItemQuantity(SfoMultipleOrderSD.java:89)\n\tat ✽.And I verify Student name, Item, and quantity are displayed as expected(Scholastic/SfoMultipleOrder.feature:28)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
@@ -1974,7 +1875,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 101082600,
+  "duration": 115333110,
   "status": "passed"
 });
 formatter.uri("Scholastic/SfoYtoNonZeroTax.feature");
@@ -1992,7 +1893,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5352776419,
+  "duration": 4330955705,
   "status": "passed"
 });
 formatter.scenario({
@@ -2193,7 +2094,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 221612347,
+  "duration": 184579372,
   "status": "passed"
 });
 formatter.match({
@@ -2206,8 +2107,9 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 1564134503,
-  "status": "passed"
+  "duration": 3554340099,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c337ce7ca5e7230b0bc36009dc5f1850\n*** Element info: {Using\u003did, value\u003ddwfrm_login_username}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.type(BasePage.java:57)\n\tat Pages.Scholastic.SighnInPage.typeEmail(SighnInPage.java:19)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.enterEmail(SfoMultipleOrderSD.java:28)\n\tat ✽.And I enter \u0027MMM@gmail.com\u0027 as my email(Scholastic/SfoYtoNonZeroTax.feature:11)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -2219,36 +2121,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 186138839,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 131623828,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 2915257068,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 196623020,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 2950076264,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2260,8 +2157,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 141900928,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2273,15 +2169,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 97833380,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 67407948,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2293,8 +2187,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 225045378,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2306,15 +2199,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 72471218,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 98793444,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2326,8 +2217,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 201685804,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2339,8 +2229,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 100489839,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2352,15 +2241,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 78367519,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 58899339,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2372,8 +2259,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 124629400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2385,15 +2271,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 86637137,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 50891082,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2405,8 +2289,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 113023707,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2418,8 +2301,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 105406203,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2431,15 +2313,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 86334992,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 53762607,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2451,8 +2331,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 113383703,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2464,15 +2343,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 77439863,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 51605711,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2484,22 +2361,19 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 148596909,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.clickOnYto()"
 });
 formatter.result({
-  "duration": 1585781394,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.clickFlyer()"
 });
 formatter.result({
-  "duration": 2491909435,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2511,8 +2385,7 @@ formatter.match({
   "location": "YtoSfoNonZeroTaxSD.typeItem4S5Qty(String)"
 });
 formatter.result({
-  "duration": 219402010,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2524,39 +2397,34 @@ formatter.match({
   "location": "YtoSfoNonZeroTaxSD.typeItem5S5Qty(String)"
 });
 formatter.result({
-  "duration": 143266517,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
 });
 formatter.result({
-  "duration": 2888658909,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickOnProceedToCheckOut()"
 });
 formatter.result({
-  "duration": 202693712,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickProceed()"
 });
 formatter.result({
-  "duration": 1755654617,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.verifyNonZeroTax()"
 });
 formatter.result({
-  "duration": 30794219,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 105606058,
+  "duration": 113358582,
   "status": "passed"
 });
 formatter.uri("Scholastic/SfoYtoZeroTax.feature");
@@ -2574,7 +2442,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2595189356,
+  "duration": 2510636458,
   "status": "passed"
 });
 formatter.scenario({
@@ -2775,8 +2643,9 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 775223890,
-  "status": "passed"
+  "duration": 24038914,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: window was already closed\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49584}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 402607b830edaee393fe9d7119295d3b\n*** Element info: {Using\u003dlink text, value\u003dSign In}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\n\tat Pages.BasePage$1.apply(BasePage.java:32)\n\tat Pages.BasePage$1.apply(BasePage.java:30)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)\n\tat Pages.BasePage.findElementUsingFluentWait(BasePage.java:30)\n\tat Pages.BasePage.clickThis(BasePage.java:61)\n\tat Pages.Scholastic.LandingPage.clickSignIn(LandingPage.java:29)\n\tat StepDefinition.Scholastic.SfoMultipleOrderSD.clicksignIn(SfoMultipleOrderSD.java:22)\n\tat ✽.When I click on sign in button(Scholastic/SfoYtoZeroTax.feature:9)\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -2788,8 +2657,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 329449305,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2801,36 +2669,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 110481807,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 137509654,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 5144149287,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 182568478,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 1656712203,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2842,8 +2705,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 443715385,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2855,15 +2717,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 133689828,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 74017280,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2875,8 +2735,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 237038400,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2888,15 +2747,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 81725654,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 96982686,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2908,8 +2765,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 200167705,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2921,8 +2777,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 99672458,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2934,15 +2789,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 82212689,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 61495968,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2954,8 +2807,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 156736569,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2967,15 +2819,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 69321128,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 55426867,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -2987,8 +2837,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 169547919,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3000,8 +2849,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 106560413,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3013,15 +2861,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 69587384,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 62004110,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3033,8 +2879,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 149411270,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3046,15 +2891,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 67007361,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 57608431,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3066,22 +2909,19 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 179478480,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.clickOnYto()"
 });
 formatter.result({
-  "duration": 1504999957,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.clickFlyer()"
 });
 formatter.result({
-  "duration": 1276333118,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3093,8 +2933,7 @@ formatter.match({
   "location": "YtoSfoNonZeroTaxSD.typeItem4S5Qty(String)"
 });
 formatter.result({
-  "duration": 1675840684,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3106,39 +2945,34 @@ formatter.match({
   "location": "YtoSfoNonZeroTaxSD.typeItem5S5Qty(String)"
 });
 formatter.result({
-  "duration": 161585709,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
 });
 formatter.result({
-  "duration": 1526466954,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickOnProceedToCheckOut()"
 });
 formatter.result({
-  "duration": 169752191,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickProceed()"
 });
 formatter.result({
-  "duration": 1732413907,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "YtoSfoNonZeroTaxSD.verifyZeroTax()"
 });
 formatter.result({
-  "duration": 35526126,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 104100621,
+  "duration": 88839726,
   "status": "passed"
 });
 formatter.uri("Scholastic/SfoZeroTax.feature");
@@ -3156,8 +2990,9 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2578963085,
-  "status": "passed"
+  "duration": 1945925762,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome\u003d88.0.4324.182)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027MacBook-Pro-5.home\u0027, ip: \u0027fd4b:8d38:69ba:1:d1ca:24e7:b040:b5ac%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/0x/m7q9c0sx5vg...}, goog:chromeOptions: {debuggerAddress: localhost:49605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f20908ea978c6fa93024fad0fff59fe5\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)\n\tat DriverWrapper.Web.initDriver(Web.java:19)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:211)\n\tat cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:160)\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)\n\tat com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)\n\tat com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)\n\tat com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)\n",
+  "status": "failed"
 });
 formatter.scenario({
   "line": 7,
@@ -3282,8 +3117,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.clicksignIn()"
 });
 formatter.result({
-  "duration": 774531773,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3295,8 +3129,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterEmail(String)"
 });
 formatter.result({
-  "duration": 308683770,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3308,36 +3141,31 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterPassword(String)"
 });
 formatter.result({
-  "duration": 95444309,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickSignIn()"
 });
 formatter.result({
-  "duration": 152301302,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.minimizeNotificationBar()"
 });
 formatter.result({
-  "duration": 5353983955,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.moveToEnterOrder()"
 });
 formatter.result({
-  "duration": 203499729,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.selectSFO()"
 });
 formatter.result({
-  "duration": 2132427662,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3349,8 +3177,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterName(String)"
 });
 formatter.result({
-  "duration": 308214979,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3362,15 +3189,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 115706076,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 88039614,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3382,8 +3207,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 229745998,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3395,15 +3219,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 166949473,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 227553762,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3415,8 +3237,7 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 246589450,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3428,15 +3249,13 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterItem(String)"
 });
 formatter.result({
-  "duration": 101835170,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickAddButton()"
 });
 formatter.result({
-  "duration": 96875030,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -3448,39 +3267,34 @@ formatter.match({
   "location": "SfoMultipleOrderSD.enterQuantity(String)"
 });
 formatter.result({
-  "duration": 199187758,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickReviewButton()"
 });
 formatter.result({
-  "duration": 1511823857,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickOnProceedToCheckOut()"
 });
 formatter.result({
-  "duration": 160722964,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.clickProceed()"
 });
 formatter.result({
-  "duration": 1726116704,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "SfoMultipleOrderSD.verifyEstimatedTax()"
 });
 formatter.result({
-  "duration": 31115635,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 108478015,
+  "duration": 86228908,
   "status": "passed"
 });
 });

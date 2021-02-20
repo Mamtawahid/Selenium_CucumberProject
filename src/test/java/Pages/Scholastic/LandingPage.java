@@ -16,6 +16,8 @@ public class LandingPage extends BasePage {
 
     By SFO = By.linkText("Student Flyer Orders");
 
+    By createAnAccount = By.linkText("Create an Account");
+
 
 
 
@@ -39,6 +41,10 @@ public class LandingPage extends BasePage {
 
    public void clickSFO(){
         clickThis(SFO);
+   }
+
+   public void clickOnCreateAnAccount(){
+        clickThis(createAnAccount);
    }
 
 
